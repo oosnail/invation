@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0306BC881DA4EB2B00489522 /* DXLINVView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0306BC871DA4EB2B00489522 /* DXLINVView.m */; };
+		1C88F6611DAA5F8F00E97A78 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C88F6601DAA5F8F00E97A78 /* Photos.framework */; };
+		1C88F6681DAA790400E97A78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C88F6671DAA790400E97A78 /* Assets.xcassets */; };
+		1C88F66E1DAA7AB700E97A78 /* DXLINVManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C88F66B1DAA7AB700E97A78 /* DXLINVManage.m */; };
+		1C88F66F1DAA7AB700E97A78 /* DXLINVView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C88F66D1DAA7AB700E97A78 /* DXLINVView.m */; };
 		CF36ABF11CC7C38D009F00B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF36ABF01CC7C38D009F00B0 /* main.m */; };
 		CF36ABF41CC7C38D009F00B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF36ABF31CC7C38D009F00B0 /* AppDelegate.m */; };
 		CF36ABF71CC7C38D009F00B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF36ABF61CC7C38D009F00B0 /* ViewController.m */; };
 		CF36ABFA1CC7C38D009F00B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF36ABF81CC7C38D009F00B0 /* Main.storyboard */; };
 		CF36ABFD1CC7C38D009F00B0 /* UIGestureRecognizer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF36ABFB1CC7C38D009F00B0 /* UIGestureRecognizer.xcdatamodeld */; };
-		CF36ABFF1CC7C38D009F00B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF36ABFE1CC7C38D009F00B0 /* Assets.xcassets */; };
 		CF36AC021CC7C38D009F00B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF36AC001CC7C38D009F00B0 /* LaunchScreen.storyboard */; };
 		CF36AC0D1CC7C38D009F00B0 /* UIGestureRecognizerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF36AC0C1CC7C38D009F00B0 /* UIGestureRecognizerTests.m */; };
 		CF36AC181CC7C38D009F00B0 /* UIGestureRecognizerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF36AC171CC7C38D009F00B0 /* UIGestureRecognizerUITests.m */; };
@@ -37,8 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0306BC861DA4EB2B00489522 /* DXLINVView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXLINVView.h; sourceTree = "<group>"; };
-		0306BC871DA4EB2B00489522 /* DXLINVView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXLINVView.m; sourceTree = "<group>"; };
+		1C88F6601DAA5F8F00E97A78 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		1C88F6671DAA790400E97A78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C88F66A1DAA7AB700E97A78 /* DXLINVManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXLINVManage.h; sourceTree = "<group>"; };
+		1C88F66B1DAA7AB700E97A78 /* DXLINVManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXLINVManage.m; sourceTree = "<group>"; };
+		1C88F66C1DAA7AB700E97A78 /* DXLINVView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXLINVView.h; sourceTree = "<group>"; };
+		1C88F66D1DAA7AB700E97A78 /* DXLINVView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXLINVView.m; sourceTree = "<group>"; };
 		CF36ABEC1CC7C38D009F00B0 /* UIGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF36ABF01CC7C38D009F00B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF36ABF21CC7C38D009F00B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -47,7 +53,6 @@
 		CF36ABF61CC7C38D009F00B0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CF36ABF91CC7C38D009F00B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF36ABFC1CC7C38D009F00B0 /* UIGestureRecognizer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UIGestureRecognizer.xcdatamodel; sourceTree = "<group>"; };
-		CF36ABFE1CC7C38D009F00B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF36AC011CC7C38D009F00B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF36AC031CC7C38D009F00B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF36AC081CC7C38D009F00B0 /* UIGestureRecognizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIGestureRecognizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C88F6611DAA5F8F00E97A78 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +89,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C88F65F1DAA5F8F00E97A78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C88F6601DAA5F8F00E97A78 /* Photos.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C88F6691DAA7AB700E97A78 /* INVVIEW */ = {
+			isa = PBXGroup;
+			children = (
+				1C88F66A1DAA7AB700E97A78 /* DXLINVManage.h */,
+				1C88F66B1DAA7AB700E97A78 /* DXLINVManage.m */,
+				1C88F66C1DAA7AB700E97A78 /* DXLINVView.h */,
+				1C88F66D1DAA7AB700E97A78 /* DXLINVView.m */,
+			);
+			path = INVVIEW;
+			sourceTree = "<group>";
+		};
 		CF36ABE31CC7C38D009F00B0 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +115,7 @@
 				CF36AC0B1CC7C38D009F00B0 /* UIGestureRecognizerTests */,
 				CF36AC161CC7C38D009F00B0 /* UIGestureRecognizerUITests */,
 				CF36ABED1CC7C38D009F00B0 /* Products */,
+				1C88F65F1DAA5F8F00E97A78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,18 +132,17 @@
 		CF36ABEE1CC7C38D009F00B0 /* UIGestureRecognizer */ = {
 			isa = PBXGroup;
 			children = (
+				1C88F6691DAA7AB700E97A78 /* INVVIEW */,
+				1C88F6671DAA790400E97A78 /* Assets.xcassets */,
 				CF36ABF21CC7C38D009F00B0 /* AppDelegate.h */,
 				CF36ABF31CC7C38D009F00B0 /* AppDelegate.m */,
 				CF36ABF51CC7C38D009F00B0 /* ViewController.h */,
 				CF36ABF61CC7C38D009F00B0 /* ViewController.m */,
 				CF36ABF81CC7C38D009F00B0 /* Main.storyboard */,
-				CF36ABFE1CC7C38D009F00B0 /* Assets.xcassets */,
 				CF36AC001CC7C38D009F00B0 /* LaunchScreen.storyboard */,
 				CF36AC031CC7C38D009F00B0 /* Info.plist */,
 				CF36ABFB1CC7C38D009F00B0 /* UIGestureRecognizer.xcdatamodeld */,
 				CF36ABEF1CC7C38D009F00B0 /* Supporting Files */,
-				0306BC861DA4EB2B00489522 /* DXLINVView.h */,
-				0306BC871DA4EB2B00489522 /* DXLINVView.m */,
 			);
 			path = UIGestureRecognizer;
 			sourceTree = "<group>";
@@ -215,7 +240,7 @@
 				TargetAttributes = {
 					CF36ABEB1CC7C38D009F00B0 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 4SU7V64Q9J;
+						DevelopmentTeam = 49ZC666LRD;
 					};
 					CF36AC071CC7C38D009F00B0 = {
 						CreatedOnToolsVersion = 7.3;
@@ -255,8 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF36AC021CC7C38D009F00B0 /* LaunchScreen.storyboard in Resources */,
-				CF36ABFF1CC7C38D009F00B0 /* Assets.xcassets in Resources */,
 				CF36ABFA1CC7C38D009F00B0 /* Main.storyboard in Resources */,
+				1C88F6681DAA790400E97A78 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +310,8 @@
 				CF36ABF41CC7C38D009F00B0 /* AppDelegate.m in Sources */,
 				CF36ABFD1CC7C38D009F00B0 /* UIGestureRecognizer.xcdatamodeld in Sources */,
 				CF36ABF11CC7C38D009F00B0 /* main.m in Sources */,
-				0306BC881DA4EB2B00489522 /* DXLINVView.m in Sources */,
+				1C88F66E1DAA7AB700E97A78 /* DXLINVManage.m in Sources */,
+				1C88F66F1DAA7AB700E97A78 /* DXLINVView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +452,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49ZC666LRD;
 				INFOPLIST_FILE = UIGestureRecognizer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -438,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 49ZC666LRD;
 				INFOPLIST_FILE = UIGestureRecognizer/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

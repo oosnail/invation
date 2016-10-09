@@ -2,8 +2,8 @@
 //  UIGestureRecognizerUITests.m
 //  UIGestureRecognizerUITests
 //
-//  Created by  江苏 on 16/4/20.
-//  Copyright © 2016年 jiangsu. All rights reserved.
+//  Created by  ztc on 16/4/20.
+//  Copyright © 2016年 ztc. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
